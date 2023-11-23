@@ -25,7 +25,7 @@ def main() -> None:
         requirements="requirements.txt",
         dev_requirements="requirements-dev.txt",
         name='pyqrio',
-        version='0.0.0',
+        version='0.0.1',
         description=(
             "A QR handling module for writing and reading QR."
         ),
