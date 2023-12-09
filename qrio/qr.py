@@ -28,7 +28,6 @@ def encode(data: bytes) -> Image:
     qrcode.make(data).save(file.name)
 
     return Image.open(file.name)
-# end encode
 
 def decode(data: Image.Image) -> bytes:
     """
@@ -43,7 +42,5 @@ def decode(data: Image.Image) -> bytes:
 
     for shape in extract(data):
         restored.append(shape.data)
-    # end for
 
     return b"".join(restored)
-# end decode

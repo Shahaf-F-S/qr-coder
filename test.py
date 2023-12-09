@@ -8,8 +8,6 @@ def main() -> None:
     data = "hello world"
 
     print(data == decode(encode(data.encode())).decode())
-# end main
 
 if __name__ == "__main__":
     main()
-# end if
