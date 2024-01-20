@@ -1,4 +1,3 @@
-pyrepresent
 qrcode
 pyzbar
 pillow

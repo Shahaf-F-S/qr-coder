@@ -1,6 +1,6 @@
 # test.py
 
-from qrio import encode, decode
+from qrcoder import encode, decode
 
 def main() -> None:
     """A function to run the main test."""

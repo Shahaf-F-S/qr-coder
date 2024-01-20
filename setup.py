@@ -23,8 +23,8 @@ def main() -> None:
         include=[],
         requirements="requirements.txt",
         dev_requirements="requirements-dev.txt",
-        name='pyqrio',
-        version='0.0.2',
+        name='qr-coder',
+        version='0.0.0',
         description=(
             "A QR handling module for writing and reading QR."
         ),
@@ -42,6 +42,7 @@ def main() -> None:
             "Programming Language :: Python :: 3.9",
             "Programming Language :: Python :: 3.10",
             "Programming Language :: Python :: 3.11",
+            "Programming Language :: Python :: 3.12",
             "Operating System :: OS Independent"
         ]
     )
