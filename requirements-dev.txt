@@ -1,7 +1,0 @@
-pdoc3
-twine
-pytest
-
-qrcode
-pyzbar
-pillow
